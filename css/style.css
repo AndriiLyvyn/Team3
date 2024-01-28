@@ -141,14 +141,14 @@ nav ul{
  }
  /* Prawy bok strony  */
  aside{
-  
-  background-image:  url(/imege/tree-4610745_1280.jpg);
+  background-color: azure;
+  /* background-image:  url(/imege/tree-4610745_1280.jpg);
   background-size: auto;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   width: 30%;
   padding: 20px;
-  border-left: 5px dashed black;  
-  color:white;
+  border-left: 5px dashed rgb(233, 201, 20);  
+  color:black;
   
  }
 
