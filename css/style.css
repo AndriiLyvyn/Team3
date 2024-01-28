@@ -3,15 +3,16 @@
 /*  General rules */
 /* *-  zaznaczenie wzystkich  elementów  jako domyslnie  */
 * {
-	box-sizing: border-box;
+
+  box-sizing: border-box;
 }
 body {
-	margin: 0;
-	padding: 0;
-	font-size: 16px;
-	background-image: url('/imege/autumn-83761_640.jpg');
-	background-size: cover;
-	animation: bg-anitmation 25s infinite alternate;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-image: url("/imege/autumn-83761_640.jpg");
+  background-size: cover;
+  animation: bg-anitmation 25s infinite alternate;
 }
 
 @keyframes bg-anitmation {
@@ -24,23 +25,25 @@ body {
 }
 
 #container {
-	margin: 0 auto;
-	width: 1200px;
-	border: 2px solid black;
+
+  margin: 0 auto;
+  width: 1200px;
+  border: 2px solid black;
 }
 
 img {
-	max-width: 100%;
-	max-height: auto;
+  max-width: 100%;
+  max-height: auto;
 }
 
 /*  Styling element in listed order */
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 15px 20px 15px;
-	background-color: lightgrey;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 20px 15px;
+  background-color: lightgrey;
 }
 
 /* brand */
@@ -52,115 +55,120 @@ header {
 /* menu */
 
 nav ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 nav ul li {
-	display: inline-block;
+  display: inline-block;
 }
 
 nav ul li a {
-	font-size: 18px;
-	color: black;
-	padding: 10px 15px;
-	text-decoration: none;
-	transition: 1s;
+  font-size: 18px;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 1s;
 }
 
 /* psewdo klasa */
 
 nav ul li a:hover {
-	color: white;
-	background-color: black;
-	font-size: 25px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 nav ul li:first-of-type a {
-	color: blue;
+  color: blue;
 }
 
 .slider {
-	width: 1196px;
-	height: 140px;
-	display: flex;
-	background: orange;
-	justify-content: space-between;
-	align-items: center;
-	overflow: hidden;
+  width: 1196px;
+  height: 140px;
+  display: flex;
+  background: orange;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
 }
 
 .slider img {
-	overflow: hidden;
-	width: 120px;
-	height: 140px;
-	animation: leadse 5s infinite ease-out;
+  overflow: hidden;
+  width: 120px;
+  height: 140px;
+  animation: leadse 5s infinite ease-out;
 }
 /* animacja lisci */
 @keyframes leadse {
-	0% {
-		margin-bottom: 15%;
-		transform: rotateZ(130deg);
-		opacity: 1;
-	}
-	50% {
-		opacity: 0.6;
-	}
-	100% {
-		margin-bottom: -15%;
-		opacity: 0;
-	}
+  0% {
+    margin-bottom: 15%;
+    transform: rotateZ(130deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    margin-bottom: -15%;
+    opacity: 0;
+  }
 }
 
 /* Main */
 
 main {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 article {
-	width: 70%;
-	background-color: darkgray;
-	padding: 30px;
+  width: 70%;
+  background-color: darkgray;
+  padding: 30px;
 }
 
 article iframe {
-	width: 1000px;
-	height: 450px;
+  width: 1000px;
+  height: 450px;
 
-	border: 20px solid tomato;
-	width: 680px;
-	border-radius: 0% 15% 0% 15%;
-	margin: 0px 0px 20px 40px;
+  border: 20px solid tomato;
+  width: 680px;
+  border-radius: 0% 15% 0% 15%;
+  margin: 0px 0px 20px 40px;
 }
 /* Prawy bok strony  */
 aside {
-	background-image: url(/imege/tree-4610745_1280.jpg);
-	background-size: auto;
-	background-repeat: no-repeat;
-	width: 30%;
-	padding: 20px;
-	border-left: 5px dashed black;
-	color: white;
+  background-image: url(/imege/tree-4610745_1280.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 30%;
+  padding: 20px;
+  border-left: 5px dashed black;
+  color: white;
 }
 
 .widget {
-	padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .widget img {
-	float: left;
-	border: 10px solid yellowgreen;
-	margin: 0px 5px 3px 0px;
-	width: 100px;
-	padding: 5px;
+  float: left;
+  border: 10px solid yellowgreen;
+  margin: 0px 5px 3px 0px;
+  width: 100px;
+  padding: 5px;
 }
 .links ul {
-	list-style-type: square;
-	padding-left: 30px;
+  list-style-type: square;
+  padding-left: 30px;
 }
 .links ul li {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+.links ul li a {
+  text-decoration: none;
+
+  color: white;
 }
 .links ul li a {
 	text-decoration: none;
